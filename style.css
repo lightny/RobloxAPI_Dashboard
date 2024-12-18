@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 58, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    background-color: rgb(237, 237, 237);
+    width: 50%;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    margin-left: 20px;
+}
+
+.main-title {
+    color: rgb(49, 49, 49);
+    font-size: 48px;
+    margin-bottom: -15px;
+    font-weight: 300;
+}
+
+.main-description {
+    color: rgb(142, 142, 142);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.divider {
+    height: 1.5px;
+    background-color: rgb(87, 87, 87);
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    font-weight: 550;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.green-button {
+    background-color: rgb(39, 168, 68);
+    width: 100px;
+}
+
+.red-button {
+    background-color: rgb(221, 53, 68);
+    width: 100px;
+}
+
+.long-red-button {
+    background-color: rgb(221, 53, 68);
+    width: 120px;
+}
+
+.turquoise-button {
+    background-color: rgb(24, 161, 186);
+    width: 180px;
+}
+
+.yellow-button {
+    background-color: rgb(255, 192, 6);
+    width: 140px;
+}
